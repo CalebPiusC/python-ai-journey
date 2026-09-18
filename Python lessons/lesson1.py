@@ -1,24 +1,24 @@
-greeting ='hello, world!'
-print(greeting)
-line01 = "**************" # header/fooeter
-line02 = "*            *" # re-use
-line03 = "*  WELCOME   *"
-line04 = "**************"
-# start with a blank line
-print('')
-print(line01)
-print(line02)
-print(line03)
-print(line02)
-print(line04)
+#DAY 1 - varaibles and data types
+name = "caleb"
+age = 18
+favourite_food = "jellof rice"
+print(name)
+print(age)
+print(favourite_food)
 
-meaning = 8
-print('')
+a = 10
+b = 3.5
+c = "python"
+print(type (a)) 
+print(type (b))
+print(type (c))
 
-# if meaning > 10:
-#     print('Right on!')
-# else:
-#     print('Not today')
+age = 25            # int — whole number
+price = 19.99       # float — decimal number
+name = "Amara"      # str — text (needs quotes!)
+is_student = True   # bool — True or False (capital T/F, no quotes)
 
-# Tenary Operator
-print('Right on!') if meaning > 10 else print('Not today')
+print(type(age))  # shows: <class 'int'>
+print(type(price))  # shows: <class 'float'>
+print(type(name))  # shows: <class 'str'>
+print(type(is_student))  # shows: <class 'bool'>
