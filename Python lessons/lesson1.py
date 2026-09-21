@@ -22,3 +22,22 @@ print(type(age))  # shows: <class 'int'>
 print(type(price))  # shows: <class 'float'>
 print(type(name))  # shows: <class 'str'>
 print(type(is_student))  # shows: <class 'bool'>
+
+
+print('0----')
+print(' ||||')
+print('*' * 10)
+
+price = 10
+price = 20
+rating = 4.9
+is_published = False 
+print(price)
+
+full_name = 'john smith'
+age = 20 
+is_new 
+
+name = input('what is your name? ')
+print('Hi' + name)
+
