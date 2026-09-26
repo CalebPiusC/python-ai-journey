@@ -21,9 +21,9 @@
 | **Day 7** | Functions + Mini-Project | Defining functions, parameters, `return`, plus a small project using everything |
 
 ## Progress (updated 2026-09-26 after reviewing VSCode commits)
-- [x] Day 1: Variables & Data Types (`Python lessons/lesson1.py` — ⚠️ crashes, needs a bug fix)
+- [x] Day 1: Variables & Data Types (`Python lessons/lesson1.py` — cleaned ✅)
 - [x] Day 2: Strings (basics done; bonus: `input()` & `int()` conversion in `lesson3.py`/`lesson4.py`)
-- [ ] Day 3: Conditions — IN PROGRESS (`lesson7.py` done ✅, `lesson8.py` still a stub)
+- [x] Day 3: Conditions (`lesson7.py` + `lesson8.py` logical operators — cleaned ✅)
 - [ ] Day 4: Lists
 - [ ] Day 5: Dictionaries
 - [ ] Day 6: Loops

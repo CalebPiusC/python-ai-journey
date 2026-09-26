@@ -1,4 +1,5 @@
-birth_year = input('birth year: ')
+# Day 3 - Type conversion: turning input (str) into a number (int)
+birth_year = input('Birth year: ')
 print(type(birth_year))
 age = 2026 - int(birth_year)
 print(type(age))
