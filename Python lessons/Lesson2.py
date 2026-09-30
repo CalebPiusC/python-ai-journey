@@ -1,3 +1,6 @@
-# Day 2 - Getting input from the user
-name = input('What is your name? ')
-print('Hi ' + name)
+#getting input
+name =input('What is your name? ')
+print( 'Hi ' + name)
+fav_colour = input('What is your favourite colour? ')
+print(name + ' likes ' + fav_colour)
+
