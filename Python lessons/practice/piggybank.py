@@ -1,10 +1,21 @@
-balance = 1000
+balance = 100000000
+running = True
 
-print("Welcome to PiggyBank ATM")
-print("1. Check balance")
-print("2. Deposit")
-print("3. Withdraw")
-print("4. Exit")
+print(''' 
+Hello Caleb!
+Welcome to PiggyBank ATM
+'''
+      )
 
-choice = input("Choose an option: ")
-print("You chose:", choice)
+while running:
+    print("1. Check balance")
+    print("2. Deposit")
+    print("3. Withdraw")
+    print("4. Transfer")
+    print("5. Exit")
+
+    choice = input("Choose an option: ")
+
+    if choice == "5":
+        print("Goodbye!")
+        running = False
