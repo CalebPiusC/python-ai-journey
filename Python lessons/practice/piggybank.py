@@ -1,11 +1,10 @@
 balance = 100000000
 running = True
 
-print(''' 
+print('''
 Hello Caleb!
 Welcome to PiggyBank ATM
-'''
-      )
+''')
 
 while running:
     print("1. Check balance")
@@ -19,3 +18,7 @@ while running:
     if choice == "5":
         print("Goodbye!")
         running = False
+    elif choice == "1":
+        print(f"Your balance is: ${balance}")
+    else:
+        print("Invalid option.")
