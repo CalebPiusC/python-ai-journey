@@ -5,6 +5,8 @@ running = True
 print('''
 Hello Caleb!
 Welcome to PiggyBank ATM
+
+----MENU----
 ''')
 
 while running:
@@ -23,14 +25,21 @@ while running:
         print(f"Balance: #{balance}")
     elif choice == "2":
         amount = float(input("Enter deposit amount: "))
-        balance += amount
-        print(f"Deposit successful. Balance: #{balance}")
+        # Deposit: reject fake money
+        if amount <= 0:
+            print("Amount must be positive!")
+        else:
+            balance += amount
+            print(f"Deposit successful. Balance: #{balance}")
     elif choice == "3":
         amount = float(input("Enter withdrawal amount: "))
-        if amount <= balance:
+        # Withdraw: needs BOTH conditions true at once
+        if amount > 0 and amount <= balance:
             balance -= amount
             print(f"Withdrawal successful. Balance: #{balance}")
         else:
             print("Insufficient funds.")
+    elif choice == "4":
+        print("Transfer coming soon! 🚧")
     else:
         print("Invalid option.")
