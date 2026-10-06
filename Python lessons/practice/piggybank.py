@@ -1,4 +1,5 @@
-balance = 100000000
+balance = 1000
+
 running = True
 
 print('''
@@ -19,6 +20,17 @@ while running:
         print("Goodbye!")
         running = False
     elif choice == "1":
-        print(f"Your balance is: ${balance}")
+        print(f"Balance: #{balance}")
+    elif choice == "2":
+        amount = float(input("Enter deposit amount: "))
+        balance += amount
+        print(f"Deposit successful. Balance: #{balance}")
+    elif choice == "3":
+        amount = float(input("Enter withdrawal amount: "))
+        if amount <= balance:
+            balance -= amount
+            print(f"Withdrawal successful. Balance: #{balance}")
+        else:
+            print("Insufficient funds.")
     else:
         print("Invalid option.")
